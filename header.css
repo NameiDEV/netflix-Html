@@ -1,0 +1,76 @@
+.header {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner {
+    top: 0;
+    height: 450px;
+    object-fit: cover;
+}
+
+.header-content {
+    height: 50px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+.header-button {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #181818;
+    top: 0;
+}
+
+.home-button {
+    object-fit: contain;
+    width: 90px;
+    padding-top: 10px;
+}
+
+.side-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.TV-Shows,
+.Movies {
+    background-color: transparent;
+    color: white;
+    
+    border: none;
+}
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    top: 200px;
+    margin-left: 30px;
+    color: white;
+    gap: 20px;
+}
+.banner-button {
+    padding: 2px;
+    border: 1px solid transparent;
+    width: 60px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.banner-info>span {
+    font-size: 16px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+}
+
+.banner-info>h1 {
+    font-size: 50px;
+}
